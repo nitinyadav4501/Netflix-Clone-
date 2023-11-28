@@ -1,0 +1,51 @@
+@media screen and (max-width:600px) {
+    
+    nav {
+        max-width: 100vw;
+    }
+    .list ul li a {
+        font-size: 10px;
+    }
+
+    .tvImg1 {
+        width: 70vw;
+        position: relative;
+        z-index: 10;
+    }
+
+    .video1 {
+        width: 60vw;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+
+    .video2 {
+        width: 40vw;
+        position: absolute;
+        top: 20px;
+        right: 60px;
+    }
+    .movie {
+        height: 12vw;
+        width: 50vw;
+        position: absolute;
+        z-index: 10;
+        bottom: 0px;
+        left: 50px;
+    }
+    
+    .movie img {
+        height: 45px;
+        width: 40px;
+    }
+
+    .downloading :nth-child(1) {
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .downloading :nth-child(2) {
+        font-size: 12px;
+    }
+
+}
